@@ -9,4 +9,4 @@ font-size: 0.8em;
 
 *{
 background-color:green;
-}
+}/*ajout couleur fond d ecran*/
