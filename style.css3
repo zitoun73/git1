@@ -9,4 +9,19 @@ font-size: 0.8em;
 
 *{
 background-color:green;
-}/*ajout couleur fond d ecran*/
+}
+@media screen and (min-width: 720px){
+color: #FF0000;
+border: #000 1px dashed;
+}
+
+@media screen and (min -width: 480px) and (max-width: 720px){
+color:  #333;
+border: #CCC 1px solid;
+}
+
+@media screen and (max-width: 480px){
+color:  #000;
+border: none;
+}
+/*mis en responsive*/
